@@ -5,7 +5,7 @@ Kenzie assignment: List2
 """
 # Your name, plus anyone who helped you with this assignment.
 # Give credit where credit is due.
-__author__ = "Jordan Haagenson"
+__author__ = "???"
 
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
@@ -28,11 +28,8 @@ __author__ = "Jordan Haagenson"
 
 
 def remove_adjacent(nums):
-    new = []
-    for i in range(len(nums)):
-        if nums[i-1] != nums[i]:
-            new.append(nums[i])
-    return new
+    # your code here
+    return
 
 
 # E. linear_merge
@@ -41,24 +38,14 @@ def remove_adjacent(nums):
 # You may modify the passed in lists.
 # The solution should work in "linear" time, making a single
 # pass of both lists.
-# Hint: Don't usexaa `sort` or `sorted` -- they are not O(n)
+# Hint: Don't use `sort` or `sorted` -- they are not O(n)
 # linear time and the two lists are already provided in
 # ascending sorted order.
 
-## Got help from my husband Mauricio Alvarado who is in Q4 currently ##
+
 def linear_merge(list1, list2):
-    new1 = len(list1)
-    new2 = len(list2)
-    res = []
-    i, j = 0, 0
-    while i < new1 and j < new2:
-        if list1[i] < list2[j]:
-            res.append(list1[i])
-            i += 1
-        else:
-            res.append(list2[j])
-            j += 1
-    return res + list1[i:] + list2[j:]
+    # your code here
+    return
 
 
 # Provided simple test() function used in main() to print
